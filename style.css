@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+  }
+  
+  body {
+    font-family: "Klavika Bold";
+    box-sizing: border-box;
+    background: #c2cacf;
+    overflow-x: hidden;
+  }
+  
+  .navbar {
+    background: #dfe6ec; 
+    /* Cho nó màu xenh cho đẹp :") */
+    width: 100vw;
+    padding: 0 20px 0 20px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .navbar_left {
+    width: 30%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar_logo {
+    width: 45px;
+    height: 45px;
+    display: flex;
+  }
+  input-icons i {
+   position: absolute;
+  }
+  
+  .input-icons {
+    width: 60%;
+  }
+  
+  .icon {
+    border: none;
+    outline: none;
+    background: rgba(201, 193, 193, 0.068);
+    padding: 8px;
+    color: rgb(148, 138, 138);
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    
+  }
+  
+  .input-field {
+    width: 50%;
+    padding: 12px 0 12px 35px;
+    background: #3a3b3c;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    color: #a8abaf;
+  }
+  
+  .input-field:focus {
+    outline: none;
+  }
+  
+  ::placeholder {
+    color: #a8abaf;
+  }
+  
+  .navbar_center {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar_center a {
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+  }
+  
+  .navbar_center a:hover {
+    background: #3a3b3c;
+    border-radius: 10px;
+    height: 55px;
+    border: none;
+  }
+  
+  .active_icon {
+    border-bottom: 3px solid #2d88ff;
+  }
+  .active_icon i {
+    color: #2d88ff !important;
+  }
+  
+  .navbar a,
+  .navbar a i {
+    text-decoration: none;
+    color: #b8bbbf;
+    font-size: 23px;
+  }
+  
+  .navbar_right {
+    width: 25%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 45px;
+  }
+  
+  .navbar_right_profile {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-right: 20px;
+    transition: 0.2s;
+  }
+  
+  .navbar_right_profile:hover {
+    background: #3a3b3c;
+    border-radius: 25px;
+    padding: 0 5px;
+  }
+  
+  .navbar_right_profile img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .navbar_right_profile span {
+    color: #e7e9ed;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .navbar_right_links i {
+    margin-right: 5px;
+    background: #404041;
+    padding: 12px;
+    border-radius: 100%;
+    color: #e7e9ed;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+  }
+  
+  .navbar_right_links i:hover {
+    background: #4e4f50;
+  }
